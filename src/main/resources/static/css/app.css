@@ -1,0 +1,326 @@
+:root {
+    --mcolor: #C12B2B;
+    --bcolor: #150E0E;
+    --fcolor: #FFFFFF;
+    --scolor: #707070;
+}
+
+html, body {
+    height: 96%;
+
+}
+
+body {
+    font-family: "Noto Sans";
+    background-color: var(--bcolor);
+    color: var(--fcolor);
+}
+
+
+.new-btn {
+    position: fixed;
+    bottom: 82px;
+    right: 82px;
+    border-radius: 75px;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    line-height: 150px;
+    background-color: var(--mcolor);
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--fcolor);
+}
+
+.container {
+    min-height: 100%;
+    border: 19px var(--fcolor) solid;
+    margin: 2%;
+    box-sizing: border-box;
+}
+
+.index-title {
+    margin: 40px;
+
+}
+
+li {
+    list-style-type: none;
+    height: 70px;
+}
+
+li::before {
+    display: inline-block;
+
+    width: 32px;
+    height: 32px;
+
+    content: '';
+
+    border-radius: 100%;
+    background: var(--fcolor);
+
+    position: absolute;
+}
+
+.customer-name {
+    font-size: 28px;
+    color: var(--fcolor);
+    text-decoration: none;
+    font-weight: bold;
+    position: relative;
+    left: 39px;
+    top: -5px;
+}
+
+.customer-edit {
+    text-decoration: none;
+    display: inline-block;
+    background-color: var(--fcolor);
+    height: 32px;
+    line-height: 33px;
+    width: 80px;
+    position: absolute;
+    left: 270px;
+    color: var(--bcolor);
+    font-weight: bold;
+    text-align: center;
+    font-size: 13px;
+}
+
+.customer-delete {
+    position: relative;
+    top: -43px;
+    left: 275px;
+    background-color: var(--mcolor);
+    border: 0;
+    height: 34px;
+    line-height: 32px;
+    width: 80px;
+    font-weight: bold;
+    color: var(--fcolor);
+    font-size: 13px;
+}
+
+.hello-title{
+    font-size: 60px;
+    position: absolute;
+    margin: 0 auto;
+    top: 45%;
+    left: 38%;
+    text-decoration: none;
+    color: var(--fcolor);
+    font-weight: bold;
+}
+
+.name-card-wrapper{
+    position: relative;
+}
+
+.name-card {
+    position: absolute;
+    top: 300px;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    width: 610px;
+    height: 368px;
+    background-color: var(--fcolor);
+    color: var(--bcolor);
+}
+
+.main-contents {
+    width: 241px;
+    border-top: 368px solid var(--mcolor);
+    border-right: 157px solid transparent;
+    height: 0;
+}
+
+.sub-contents {
+    position: absolute;
+    top: 242px;
+    left: 266px;
+    width: 0;
+    border-bottom: 126px solid var(--scolor);
+    border-right: 145px solid transparent;
+    border-left: 55px solid transparent;
+    height: 0;
+}
+
+.main-orb {
+    float: left;
+    position: absolute;
+    top: 90px;
+    right: 20px;
+    color: var(--bcolor);
+}
+
+.name {
+    float: left;
+    position: absolute;
+    top: 110px;
+    right: 20px;
+    font-size: 42px;
+    font-weight: bold;
+    color: var(--bcolor);
+}
+
+.sub-org {
+    float: left;
+    position: absolute;
+    top: 305px;
+    right: 20px;
+    color: var(--bcolor);
+}
+
+.phone_number {
+    float: right;
+    position: absolute;
+    color: var(--fcolor);
+    top: 60px;
+    left: 80px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.fa-phone {
+    position: absolute;
+    top: 60px;
+    left: 36px;
+    font-size: 32px;
+    color: var(--fcolor);
+}
+
+.email {
+    float: right;
+    position: absolute;
+    color: var(--fcolor);
+    top: 132px;
+    left: 80px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.fa-envelope {
+    position: absolute;
+    top: 128px;
+    left: 36px;
+    font-size: 32px;
+    color: var(--fcolor);
+}
+
+.github-name {
+    float: right;
+    position: absolute;
+    color: var(--fcolor);
+    top: 200px;
+    font-size: 24px;
+    font-weight: bold;
+    left: 80px;
+}
+
+.fa-github {
+    position: absolute;
+    top: 200px;
+    left: 36px;
+    font-size: 32px;
+    color: var(--fcolor);
+}
+
+.twitter-name {
+    float: right;
+    position: absolute;
+    color: var(--fcolor);
+    top: 280px;
+    left: 80px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.fa-twitter {
+    position: absolute;
+    top: 280px;
+    left: 36px;
+    font-size: 32px;
+    color: var(--fcolor);
+}
+
+.show-back-btn {
+    display: inline-block;
+    position: absolute;
+    bottom: 115px;
+    text-align: center;
+    left: 45%;
+    width: 120px;
+    line-height: 50px;
+    height: 50px;
+    text-decoration: none;
+    color: var(--bcolor);
+    font-weight: bold;
+    background-color: var(--fcolor);
+}
+
+.form-wrapper {
+    margin: 0 40px 0 40px;
+}
+
+.form-left {
+    display: inline-block;
+    margin-left: 50px;
+    position: relative;
+    top: -69px;
+}
+
+.form-right {
+    display: inline-block;
+}
+
+.form-submit-btn {
+    background-color: var(--mcolor);
+    border: 0;
+    height: 34px;
+    line-height: 32px;
+    width: 80px;
+    font-weight: bold;
+    color: var(--fcolor);
+    font-size: 13px;
+    display: block;
+    position: relative;
+    top: 40px;
+}
+
+li.form-li::before {
+    width: 20px;
+    height: 20px;
+}
+
+.form-li-span {
+    position: relative;
+    top: -5px;
+    left: 25px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.each-form {
+    background-color: var(--bcolor);
+    border: 0;
+    height: 30px;
+    width: 250px;
+    border-bottom: 3px solid var(--fcolor);
+    position: relative;
+    top: -36px;
+    font-size: 20px;
+    color: var(--fcolor);
+}
+
+.form-back-btn {
+    height: 34px;
+    width: 80px;
+    line-height: 34px;
+    background-color: var(--fcolor);
+    color: var(--bcolor);
+    top: 354px;
+    left: 175px;
+    font-size: 14px;
+}

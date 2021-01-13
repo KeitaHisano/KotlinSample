@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8" />
+    <title>サンプルアプリ</title>
+    <link th:href="@{/css/app.css}" rel="stylesheet" />
+</head>
+<body>
+<div class="container">
+    <a class="hello-title" th:text="${message}" th:href="@{/customers}"></a>
+</div>
+</body>
+</html>
